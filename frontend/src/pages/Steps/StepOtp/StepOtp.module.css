@@ -1,0 +1,14 @@
+.CardWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.paragraph {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #E9ECEF;
+}

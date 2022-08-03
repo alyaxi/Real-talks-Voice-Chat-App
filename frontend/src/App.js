@@ -2,8 +2,6 @@ import './App.css';
 import {Navigate, Routes, Route, Link, BrowserRouter} from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Navbar from './components/shared/Navigation/Nav';
-import Register from './pages/Register/Register';
-import Login from './pages/Login/Login';
 import Authenticate from './pages/Authenticate/Auth';
 import Activate from './pages/Activate/Activate';
 import Rooms from './pages/Rooms/Rooms';

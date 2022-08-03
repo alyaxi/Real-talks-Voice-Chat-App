@@ -1,0 +1,13 @@
+.input{
+    background-color: #161A1D;
+    /* fill-opacity: 0.2; */
+    border:none;
+    outline: none;
+    border-radius: 20px;
+    min-width:400px ;
+    min-height: 40px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+}

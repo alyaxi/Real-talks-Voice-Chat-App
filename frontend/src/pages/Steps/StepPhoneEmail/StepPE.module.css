@@ -19,11 +19,23 @@
     border-radius: 10px;
     outline: none;
     cursor: pointer;
+    
+    filter: drop-shadow(0px 0px 7px #4ECDC4);
 }
 .tabButton:last-child{
     margin-left: 10px;
 }
 
 .active {
+    filter: drop-shadow(0px 0px 0px);
     background-color: #4ECDC4;
+    transition: all .3s ease-in-out; 
+}
+
+.paragraph {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #E9ECEF;
 }
