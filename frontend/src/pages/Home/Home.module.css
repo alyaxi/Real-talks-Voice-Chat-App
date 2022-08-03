@@ -1,0 +1,20 @@
+.cardWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+    /* justify-items: center; */
+}
+.content {
+    font-size: 25px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    color: #E9ECEF;
+}
+.SinginWrapper{
+    margin-top: 10px;
+}
+
+.alreadyAcc{
+    color: #3ea39c;
+}
