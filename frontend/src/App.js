@@ -5,11 +5,13 @@ import Navbar from './components/shared/Navigation/Nav';
 import Authenticate from './pages/Authenticate/Auth';
 import Activate from './pages/Activate/Activate';
 import Rooms from './pages/Rooms/Rooms';
+import { useSelector } from 'react-redux';
 function App() {
-  const isAuth = false
-  const user = {
-    activated: false,
-  }
+  // const isAuth = false
+  // const user = {
+  //   activated: false,
+  // }
+  const {isAuth, user} = useSelector(state => state.authSlice);
   return (
     <BrowserRouter>
     <Navbar/>
